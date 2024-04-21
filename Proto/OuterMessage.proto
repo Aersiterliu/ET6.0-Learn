@@ -1,4 +1,4 @@
-syntax = "proto3";
+syntax = "proto3"
 package ET;
 
 //ResponseType M2C_TestResponse
@@ -8,6 +8,10 @@ message C2M_TestRequest // IActorLocationRequest
 	string request = 1;
 }
 
+message
+{
+	
+}
 message M2C_TestResponse // IActorLocationResponse
 {
 	int32 RpcId = 90;
